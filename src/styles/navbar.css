@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+  .div-logo{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+  }
+  .logo-plazing{
+    height: 80px;
+    width: 80px ;
+    border-radius: 10px;
+  }
+.navbar-right{
+
+  padding: 0 70%;
+}
+  .navbar-left ul,
+  .navbar-right ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 100px;
+  }
+  
+  .navbar-left ul li,
+  .navbar-right ul li {
+    margin-left: 10px;
+  }
+  
+  .navbar-left span {
+    margin-right: 10px;
+  }
